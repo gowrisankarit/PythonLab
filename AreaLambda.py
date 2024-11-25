@@ -1,0 +1,6 @@
+l,b = int(input("Enter the length of the rectangle:")), int(input("Enter the breadth of the rectangle:"))
+print("Area of the rectangle",(lambda l,b:l * b)(l,b))
+print("Perimeter of the rectangle",(lambda l,b:2 * (l + b))(l,b))
+a = int(input("Enter the side of the square:"))
+print("Area of the square",(lambda a:a * a)(a))
+print("Perimeter of the square",(lambda a:4 * a)(a))
